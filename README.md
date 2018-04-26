@@ -9,9 +9,9 @@ virtualenv env
 
 ### Prerequisites
 
-* 1 - Create database journal in your PostgreSql server 
-* 2 - Modify your **settings.py** DATABASES info
-* 3 - migrate
+* Create database journal in your PostgreSql server 
+* Modify your **settings.py** DATABASES info
+* migrate
 
 ```
 python manage.py migrate
