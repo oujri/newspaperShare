@@ -1,9 +1,3 @@
-# newspaperShare
-
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-
 # Newspaper App
 
 ## Getting Started
@@ -38,4 +32,10 @@ Then copy the data provided in [datadump.json](https://github.com/oujri/newspape
 
 ```
 python3 manage.py loaddata datadump.json
+```
+
+## Running
+
+```
+python manage.py runserver
 ```
